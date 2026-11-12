@@ -41,12 +41,12 @@ $$
 - Break down each play into individual player actions and contributions 
 - Score each decision against alternatives using MCTS over the model
 
-## Phase 4 - Player ELO 
+### Phase 4 - Player ELO 
 
 - Determine player ROOK rating based on past performance 
 - Determine how it updates over games 
 
-## Phase 5 - Testing and Analysis 
+### Phase 5 - Testing and Analysis 
 
 - Implement and observe different scoring and modeling methods 
 - Run past seasons, look for trends, and project winners 
