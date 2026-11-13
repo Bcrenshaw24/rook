@@ -21,15 +21,18 @@ $$
 
 ## Phases 
 
-### Phase 1 - Tracking (Ongoing)
+### Phase 1 - Tracking
 
 - Gather a few clips for analysis 
 - Build a tracking module with OpenCV/YOLO 
 - Test module on different clips 
 - Determine what can be done with analyzed clips 
-- Analyze shot and pass trajectory 
 
-### Phase 2 - State mapping 
+#### Results 
+
+Was able to get a working model to detect different players on and off court. Continuous ball tracking was difficult and noisy so I changed it to who last had the ball. Due to different cuts in the footage, the algorihms used to track the ball confused which player had possesion last. I plan to fix this next phase by building a court map that allows us to track the ball and players more easily over the course of a play. This will also hopefully allow us to only track players on court. 
+
+### Phase 2 - State mapping (Ongoing)
 
 - Map tracking output to court coordinates 
 - Attach ball and trajectory to mapping 
